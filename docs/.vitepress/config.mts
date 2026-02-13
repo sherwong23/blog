@@ -14,7 +14,7 @@ function getPosts() {
 }
 
 export default defineConfig({
-  // base: '/markdown/',  // 部署到GitHub时取消注释
+  base: '/markdown/',  // 部署到GitHub时取消注释
   title: "我的写作空间",
   description: "记录思考，分享知识",
   themeConfig: {
