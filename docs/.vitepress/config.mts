@@ -21,7 +21,6 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
       { text: '文章', link: '/posts/' },
-      ...getPosts().map(p => ({ text: p.text, link: p.link }))
     ],
     sidebar: [
       {
