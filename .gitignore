@@ -1,0 +1,17 @@
+# 依赖
+node_modules/
+node_modules/*
+
+# 构建输出
+docs/.vitepress/dist/
+
+# 本地调试
+.vitepress/cache/
+
+# IDE
+.idea/
+.vscode/
+
+# 系统文件
+.DS_Store
+Thumbs.db
