@@ -11,26 +11,14 @@ hero:
       link: /posts/
     - theme: alt
       text: 查看在 GitHub
-      link: https://github.com/your-username/my-writing-folder
+      link: https://github.com/sherwong23/markdown
 
 features:
-  - title: 简洁高效
-    details: 基于 VitePress构建，支持 Markdown，写完即发布
-  - title: GitHub 托管
-    details: 一键部署到 GitHub Pages，完全免费
-  - title: 易于定制
-    details: 主题、样式均可自定义，打造个人风格
----
-
-## 快速开始
-
-```bash
-# 安装依赖
-npm install
-
-# 本地预览
-npm run dev
-
-# 构建静态网站
-npm run build
-```
+  - title: 动漫杂谈
+    details: 新番老番
+  - title: 读书笔记
+    details: 小说社科
+  - title: 生活日常
+    details: 每日随笔
+  - title: 游戏攻略
+  - title: ... 
