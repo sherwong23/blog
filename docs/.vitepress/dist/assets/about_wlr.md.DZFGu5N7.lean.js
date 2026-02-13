@@ -1,1 +1,0 @@
-import{_ as e,o as t,c as r,ae as o}from"./chunks/framework.Dn7Y7LSn.js";const p=JSON.parse('{"title":"你好世界","description":"","frontmatter":{},"headers":[],"relativePath":"about/wlr.md","filePath":"about/wlr.md"}'),l={name:"about/wlr.md"};function n(i,a,s,_,d,c){return t(),r("div",null,[...a[0]||(a[0]=[o("",6)])])}const u=e(l,[["render",n]]);export{p as __pageData,u as default};
