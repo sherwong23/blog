@@ -1,6 +1,7 @@
 import { defineConfig } from 'vitepress'
 
 export default defineConfig({
+  base: '/markdown/',
   title: "我的写作空间",
   description: "记录思考，分享知识",
   themeConfig: {
