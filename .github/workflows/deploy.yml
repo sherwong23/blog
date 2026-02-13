@@ -38,6 +38,12 @@ jobs:
         with:
           # 注意：如果是 docs 模式，路径通常是 docs/.vitepress/dist
           path: docs/.vitepress/dist
+          
+      - name: Build with VitePress
+        run: |
+          npm run build
+          echo "--- 检查 dist 目录结构 ---"
+          ls -R docs/.vitepress/dist
 
   deploy:
     environment:
