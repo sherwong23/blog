@@ -6,7 +6,7 @@ node_modules/*
 docs/.vitepress/dist/
 
 # 本地调试
-.vitepress/cache/
+# .vitepress/cache/
 
 # IDE
 .idea/
