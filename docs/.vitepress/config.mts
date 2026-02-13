@@ -6,7 +6,8 @@ import fs from 'node:fs'
 function getPosts() {
   const postsDir = resolve(dirname(fileURLToPath(import.meta.url)), '../posts')
   if (!fs.existsSync(postsDir)) return []
-  const files = fs.readdirSync(postsDir).filter(f => f.endsWith('.md'))
+  const files = fs.readdirSync(postsDir)
+    .filter(f => f.endsWith('.md') && f !== 'index.md')
   return files.map(f => ({
     text: f.replace('.md', ''),
     link: '/posts/' + f.replace('.md', '')
